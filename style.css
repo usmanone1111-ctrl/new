@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+
+    
+}
+
+.container {
+    text-align: center;
+}
+
+.login-box {
+    color: black;
+    background:white;
+    padding: 40px;
+    width: 260px;
+    margin-left: 600px;
+    margin-top: 30px;
+    height: 470px;
+
+}
+
+.logo {
+    color: black;
+    font-size: 48px;
+    margin-bottom: 30px;
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    border-radius: 3px;
+    border: 1px solid #dbdbdb;
+    background: #fafafa;
+}
+
+button {
+    margin-left: 12px;
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    background: #2b12b9;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #221858;
+}
+
+.divider {
+    color: black;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.divider div {
+    color: black;
+    flex: 1;
+    height: 1px;
+    background: #dbdbdb;
+}
+
+.divider p {
+    margin: 0 10px;
+    color: black;
+    font-size: 12px;
+}
+/* facebook login page */
+
+.fb-login {
+    display: flex;
+    align-items: center;       
+    justify-content: center;                
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    width: 100%;
+}
+
+.fb-login img {
+    width: 24px;   /* لوگو کا سائز */
+    height: 24px;
+}
+
+.forgot {
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.signup-box {
+    height: 60px;
+    color: black;
+    margin-left: 600px;
+    background: white;
+    padding: 20px;
+    width: 350px;
+}
+
+.signup-box a {
+    color: #2b12b9;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius:8px ;
+}
+
+
+/* img */
+
+.box{
+
+    display: flex;
+    display: block;
+    margin-right:500px ;
+    margin-top: 300px;
+
+
+}
